@@ -133,4 +133,4 @@ try:
 
     feed = gtfs_realtime_pb2.FeedMessage()
 
-    feed.ParseFromString(feed_
+    feed.ParseFromString(feed_bytes)
